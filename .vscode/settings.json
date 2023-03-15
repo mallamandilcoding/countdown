@@ -1,0 +1,10 @@
+{
+  "liveServer.settings.port": 5501,
+  "explorer.autoRevealExclude": {
+    "**/node_modules": false
+  },
+  "explorer.autoReveal": true,
+  "search.exclude": {
+    "**/node_modules": false
+  }
+}
