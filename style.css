@@ -48,3 +48,31 @@ input#datepicker {
   padding: 24px;
   border-radius: 8px;
 }
+
+
+@media (max-width:700px){
+  h1.complete{
+    font-size: 24px;
+  }
+  .times{
+    gap: 16px;
+  }
+}
+
+@media (max-width:530px){
+  h1{
+    text-align: center;
+  }
+  h1 span{
+    display: block;
+  }
+  .times p.big-text{
+    font-size: 40px;
+  }
+  .times span{
+    font-size: 20px;
+  }
+  input#datepicker{
+    width:70%;
+  }
+}
