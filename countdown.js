@@ -3,18 +3,22 @@
 // console.log(picker);
 // import datepicker from 'js-datepicker';
 // const picker = datepicker(document.querySelector('#calendar'));
+var picker = new Pikaday({ field: document.getElementById('datepicker') });
 let endDate = "01 Jan 2024";
 const dateval = document.getElementById('datepicker');
+// const dateval = document.getElementById('dateval');
 const eventday = document.querySelector('#event');
-const picker = new Pikaday({ field: dateval });
+// const picker = new Pikaday({ field: dateval });
 var date = new Date();
-date.setDate(date.getDate() + 1);
 // console.log(date);
-
+date.setDate(date.getDate() + 1);
+// console.log(dateval);
+// console.log(date);
+// dateval.min = date;
 // alert(finalDate);
 picker.setMinDate(date);
 dateval.addEventListener("change", (e) => {
-
+  // console.log(dateval.min);
   endDate = e.currentTarget.value;
   if (endDate){
     eventday.innerHTML = endDate;
