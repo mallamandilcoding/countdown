@@ -8,8 +8,8 @@ A countdown application made entirely with html,css and js.
 <br>
 
 
+https://user-images.githubusercontent.com/122031769/225778019-e83d7946-a3dc-4b93-a4bf-4b2132ccdcb2.mp4
 
-https://user-images.githubusercontent.com/122031769/225301567-4840a16c-cc7d-4d6c-91b2-70adeadd6dd7.mp4
 
 
 
