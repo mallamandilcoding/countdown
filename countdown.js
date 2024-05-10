@@ -4,7 +4,7 @@
 // import datepicker from 'js-datepicker';
 // const picker = datepicker(document.querySelector('#calendar'));
 var picker = new Pikaday({ field: document.getElementById('datepicker') });
-let endDate = "01 Jan 2024";
+let endDate = "01 Jan 2025";
 const dateval = document.getElementById('datepicker');
 // const dateval = document.getElementById('dateval');
 const eventday = document.querySelector('#event');
