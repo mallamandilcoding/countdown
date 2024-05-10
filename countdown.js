@@ -12,6 +12,7 @@ const eventday = document.querySelector('#event');
 var date = new Date();
 // console.log(date);
 date.setDate(date.getDate() + 1);
+//just
 // console.log(dateval);
 // console.log(date);
 // dateval.min = date;
